@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <title>Turing Tic Tac Toy challenge</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          1 -
+        </td>
+        <td>
+          Change the Players' color and X rotation
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2 -
+        </td>
+        <td>
+          Fix the <b>handleClick</b> function located at
+          <b>[ROOT]/src/script.js</b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          3 -
+        </td>
+        <td>
+          Implement the <b>checkWin</b> function located at
+          <b>[ROOT]/solution.js</b>
+        </td>
+      </tr>
+    </table>
+    <div class="board" id="board">
+      <div class="cell" data-cell="0"></div>
+      <div class="cell" data-cell="1"></div>
+      <div class="cell" data-cell="2"></div>
+      <div class="cell" data-cell="3"></div>
+      <div class="cell" data-cell="4"></div>
+      <div class="cell" data-cell="5"></div>
+      <div class="cell" data-cell="6"></div>
+      <div class="cell" data-cell="7"></div>
+      <div class="cell" data-cell="8"></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+      <div data-winning-message-text></div>
+      <button id="restartButton">Restart</button>
+    </div>
+    <script src="./solution.js"></script>
+    <script src="./src/script.js"></script>
+  </body>
+</html>
